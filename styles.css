@@ -1,0 +1,21 @@
+:root {
+  --black: #332e3c;
+  --orange: #f46036;
+  --white: #fff;
+  --blue: #403f4c;
+}
+
+/* Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:wght@400;700&display=swap");
+
+
+body {
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: xx-large;
+}
