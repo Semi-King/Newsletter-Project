@@ -17,8 +17,8 @@ body {
 
 h1 {
     font-family: 'Roboto Bold', sans-serif;
-    font-size: xx-large;
-    margin-bottom: 3rem;
+    font-size: 60px;
+    margin-bottom: 2rem;
 }
 
 ul li {
@@ -48,7 +48,7 @@ ul li {
 }
 
 .cta {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .illustration {
@@ -67,15 +67,37 @@ ul li {
 
  
 #inputEmail, #submit-button{
-  width: 30%;
+  width: 50%;
   padding: 12px;
   margin: 8px 0;
   display: block;
-  border: 1px solid #ccc;
   box-sizing: border-box;
   border-radius: 8px;
 }
 
+#inputEmail {
+  border: 1px solid #ccc;
+}
+
 #submit-button {
   margin-top: 1.2rem;
+  background: #f46036;
+  background-image: -webkit-linear-gradient(top, #f46036, #9ba1db);
+  background-image: -moz-linear-gradient(top, #f46036, #9ba1db);
+  background-image: -ms-linear-gradient(top, #f46036, #9ba1db);
+  background-image: -o-linear-gradient(top, #f46036, #9ba1db);
+  background-image: linear-gradient(to bottom, #f46036, #9ba1db);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background: #332e3c;
+  text-decoration: none;
 }
