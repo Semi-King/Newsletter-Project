@@ -51,8 +51,31 @@ ul li {
   font-size: 16px;
 }
 
+.illustration {
+  width: 500px;
+  height: 500px;
+}
+
 .attribution {
   margin-top: 25rem ;
 }
 
+.email-class {
+  font-size: 13px;
+}
 
+
+ 
+#inputEmail, #submit-button{
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#submit-button {
+  margin-top: 1.2rem;
+}
