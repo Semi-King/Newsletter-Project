@@ -18,4 +18,41 @@ body {
 h1 {
     font-family: 'Roboto Bold', sans-serif;
     font-size: xx-large;
+    margin-bottom: 3rem;
 }
+
+ul li {
+  list-style: none;
+  line-height: 3rem;
+}
+
+.list-svg {
+  padding-right: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  /* background: transparent; */
+}
+
+
+.form-section {
+  width: 50%;
+  height: 50px;
+  /* border: none; */
+  /* border-radius: 20px; */
+  color: var(--white);
+  font-size: 25px;
+}
+
+.cta {
+  font-size: 16px;
+}
+
+.attribution {
+  margin-top: 25rem ;
+}
+
+
