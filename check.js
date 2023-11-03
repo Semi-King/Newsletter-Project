@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Show thank you page once all validation passes 
-
+    showThankYouPage();
   });
+
+  function showThankYouPage() {
+    // Redirect to thank you page
+  }
+
 });
