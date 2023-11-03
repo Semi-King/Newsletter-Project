@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function showThankYouPage() {
     // Redirect to thank you page
+    window.location.href = "thankyou.html";
   }
 
 });
