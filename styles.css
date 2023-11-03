@@ -11,7 +11,7 @@
 
 body {
   background-color: var(--blue);
-  color: var(--white);
+  color: var(--blue);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -19,6 +19,7 @@ h1 {
     font-family: 'Roboto Bold', sans-serif;
     font-size: 60px;
     margin-bottom: 2rem;
+    color: var(--blue);
 }
 
 ul li {
@@ -33,17 +34,19 @@ ul li {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
-  /* background: transparent; */
+  margin-top: 100px;
+  background-color: var(--white);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: -10px;
+  padding-right: 10px;
+  border-radius: 30px;
 }
 
 
 .form-section {
   width: 50%;
   height: 50px;
-  /* border: none; */
-  /* border-radius: 20px; */
-  color: var(--white);
   font-size: 25px;
 }
 
