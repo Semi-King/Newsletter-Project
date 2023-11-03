@@ -44,6 +44,8 @@ ul li {
 }
 
 
+
+
 .form-section {
   width: 50%;
   height: 50px;
@@ -82,7 +84,7 @@ ul li {
   border: 1px solid #ccc;
 }
 
-#submit-button {
+#submit-button, #thankyou-button {
   margin-top: 1.2rem;
   background: #f46036;
   background-image: -webkit-linear-gradient(top, #f46036, #9ba1db);
@@ -101,6 +103,11 @@ ul li {
 }
 
 #submit-button:hover {
+  background: #332e3c;
+  text-decoration: none;
+}
+
+#thankyou-button:hover {
   background: #332e3c;
   text-decoration: none;
 }
