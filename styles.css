@@ -21,6 +21,13 @@ h1 {
   color: var(--blue);
 }
 
+#thank-you {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  color: var(--blue);
+}
+
 ul li {
   list-style: none;
   line-height: 3rem;
