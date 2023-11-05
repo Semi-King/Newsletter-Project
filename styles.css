@@ -46,7 +46,7 @@ ul li {
   padding-top: 60px;
   padding-bottom: 60px;
   border-radius: 30px;
-  width: 1500px;
+  width: 1450px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -75,7 +75,7 @@ ul li {
 }
 
 .illustration {
-  width: 500px;
+  width: 600px;
   height: 500px;
 }
 
